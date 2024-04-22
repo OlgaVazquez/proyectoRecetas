@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'mulish';
+}
+
+.barraSup{
+    background-color: aquamarine;
+    color:#ffffff;
+    height: 10vh;
+    position:sticky;
+    top: 0;
+    z-index:10;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:40px;
+    margin-right: 40px;
+    padding: 1.5rem 0;
+    .anclaLogo{
+        text-decoration: none;
+        color: #13308f;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+}
+
+.listaNav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    .listaItem{
+        margin-right:20px;
+        .linkNav{
+            text-decoration: none;
+            color:#13308f;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            
+            }
+        }
+        .linkNav.iniciarSesion{
+            background-color: #181419;
+            color: white;
+            
+            border-radius: 5px;
+    }
+}
+
+.division{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+h1{
+    text-align: center;
+    background-color: burlywood;
+    color: beige;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    background-color: #13308f;
+    color: beige;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+.lisIng{
+    height: 50vh;
+    width: 50vh;
+    text-align: center;
+    background: url(./panqueques.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    font-size: 1.5rem;
+
+
+}
+
+img{
+    margin-left: 600px;
+    padding-top: 30px;
+
+}
+.consulta{
+    text-decoration: none;
+    background-color: aqua;
+    margin-left: 600px;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
